@@ -63,6 +63,51 @@ Terraform 1.1.5
 
 For the latest information check the [downloads link](https://www.terraform.io/downloads)
 
+## 👩‍💻 👨‍💻 Basic Usage 
+Show the current Terraform version
+
+```shell
+terraform version
+```
+
+Prepare your working directory for other commands
+
+```shell
+terraform init
+```
+
+Show changes required by the current configuration
+
+```shell
+terraform plan
+```
+
+Create or update infrastructure
+
+```shell
+terraform apply
+```
+
+Destroy previously-created infrastructure
+
+```shell
+terraform destroy
+```
+
+Show the current state or a saved plan
+
+```shell
+terraform show
+```
+
+Show output values from your root module
+
+```shell
+terraform output
+```
+
+
+
 ## 📓 Author
 
 ![Logo](https://user-images.githubusercontent.com/19915910/120965966-81203b00-c7a0-11eb-8ef4-a42c0642db4c.png)
